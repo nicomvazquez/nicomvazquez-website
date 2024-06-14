@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 function Comunity() {
   return (
-    <section className="text-left md:text-center">
+    <section id="contact" className="text-left md:text-center">
       <h1 className="text-5xl md:text-6xl font-semibold mb-10">
         Se parte de nuestra comunidad.
       </h1>

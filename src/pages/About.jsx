@@ -41,7 +41,7 @@ function About() {
         </div>
 
         <div className="max-w-xl ">
-          <img src="./iphone-x.jpg" className="rounded-2xl" alt="" />
+          <img src="./banner.png" className="rounded-2xl" alt="" />
         </div>
       </div>
     </section>

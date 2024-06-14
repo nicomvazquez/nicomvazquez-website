@@ -16,8 +16,8 @@ function Portfolio() {
           </Link>
         </div>
       </div>
-      <div className="max-w-xl">
-        <img src="./photo.png" className="rounded-xl" alt="" />
+      <div className="max-w-3xl">
+        <img src="./portfolio.png" className="rounded-xl" alt="" />
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <section id="contact" className="flex justify-between gap-10 md:items-end flex-col md:flex-row">
+    <section className="flex justify-between gap-10 md:items-end flex-col md:flex-row">
       <div>
         <h1 className="text-3xl md:text-5xl font-bold">
           Ponte en contacto con nosotros y

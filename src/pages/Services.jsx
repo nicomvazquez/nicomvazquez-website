@@ -10,7 +10,7 @@ function Services() {
       <h2 className="text-5xl md:text-6xl font-bold">Servicios.</h2>
       <p className="my-10 text-xl">
         Creamos soluciones de software para todo tipo de clientes,
-        proporcionando todo lo que su negocio necesita:
+        proporcionando todo lo que su negocio necesita: 
       </p>
 
       <div className="flex justify-between gap-10 flex-col md:flex-row">

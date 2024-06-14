@@ -2,9 +2,9 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <section className="flex gap-14 flex-col-reverse md:flex-row">
-      <div className="max-w-xl ">
-        <img src="./iphone-x.jpg" className="rounded-2xl" alt="" />
+    <section className="flex gap-14 flex-col-reverse md:flex-row overflow-hidden">
+      <div className="max-w-xl max-h-full overflow-hidden">
+        <img src="./banner.png" className="rounded-2xl" alt="" />
       </div>
       <div className="flex flex-col w-full gap-10">
         <h1 className="text-5xl md:text-6xl font-semibold">Contacta con nosotros.</h1>
