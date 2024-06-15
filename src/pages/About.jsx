@@ -9,13 +9,12 @@ function About() {
   return (
     <section id="about" className="">
       <h1 className="text-5xl md:text-6xl text-left font-semibold mb-10">
-        Trabaja con nosotros.
+        Trabajemos juntos.
       </h1>
 
       <div className="flex gap-16 md:gap-32 justify-between flex-col md:flex-row">
         <div className="flex flex-col justify-between">
           <p className="text-neutral-400 text-left text-xl">
-            Trabajar con nosotros será muy beneficioso para usted y su negocio.
             Colaboraremos estrechamente para proporcionarle las herramientas
             necesarias. Siga estos pasos para comenzar:
           </p>

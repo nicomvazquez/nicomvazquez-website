@@ -6,8 +6,8 @@ function ContactForm() {
       <div className="max-w-xl max-h-full overflow-hidden">
         <img src="./banner.png" className="rounded-2xl" alt="" />
       </div>
-      <div className="flex flex-col w-full gap-10">
-        <h1 className="text-5xl md:text-6xl font-semibold">Contacta con nosotros.</h1>
+      <div className="flex flex-col w-full gap-14">
+        <h1 className="text-5xl md:text-6xl font-semibold">Ponte en contacto.</h1>
         <form action="" className="flex flex-col gap-5 text-xl">
           <div className="flex w-full gap-10">
             <input
