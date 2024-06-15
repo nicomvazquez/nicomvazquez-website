@@ -44,19 +44,19 @@ function Futher() {
         <div className="flex flex-col gap-3">
           <h1 className="text-2xl font-semibold">Comunidad</h1>
           <a
-            href=""
+            href="https://www.instagram.com/nicomvazquez.dev/"
             className="text-base text-neutral-400 hover:text-white transition-all"
           >
             Instagram
           </a>
           <a
-            href=""
+            href="https://www.tiktok.com/@nicomvazquez_dev"
             className="text-base text-neutral-400 hover:text-white transition-all"
           >
             TikTok
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/nicolas-vazquez-2b6812284/"
             className="text-base text-neutral-400 hover:text-white transition-all"
           >
             Linkedin

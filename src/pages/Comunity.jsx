@@ -13,7 +13,7 @@ function Comunity() {
 
       <div className="flex justify-center p-10 gap-10 flex-col md:flex-row">
         <a
-          href="#"
+          href="https://www.instagram.com/nicomvazquez.dev/"
           className="w-[300px] flex flex-col items-center gap-2 p-10 text-8xl rounded-md hover:bg-neutral-900 hover:-translate-y-3 transition-all  "
         >
           <FaInstagram />
@@ -22,7 +22,7 @@ function Comunity() {
           </h1>
         </a>
         <a
-          href="#"
+          href="https://www.tiktok.com/@nicomvazquez_dev"
           className="w-[300px] flex flex-col items-center gap-2 p-10 text-8xl rounded-md hover:bg-neutral-900 hover:-translate-y-3 transition-all "
         >
           <FaTiktok />
@@ -31,7 +31,7 @@ function Comunity() {
           </h1>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/nicolas-vazquez-2b6812284/"
           className="w-[300px] flex flex-col items-center gap-2 p-10 text-8xl rounded-md hover:bg-neutral-900 hover:-translate-y-3 transition-all"
         >
           <FaLinkedinIn />
