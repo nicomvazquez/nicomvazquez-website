@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <div className="bg-neutral-800 text-white w-full overflow-hidden">
         <div className="flex justify-center items-center px-6 py-2 fixed w-full bg-neutral-800 z-10 shadow-lg ">
-          <div className="xl:max-w-[1600px] w-full">
+          <div className="xl:max-w-[1500px] w-full">
             <Navbar />
           </div>
         </div>
@@ -30,37 +30,37 @@ function App() {
             element={
               <>
                 <div className="bg-neutral-700 flex justify-center items-center px-6">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <Home />
                   </div>
                 </div>
 
                 <div className="flex justify-center items-center px-6 py-20">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <About />
                   </div>
                 </div>
 
                 <div className="bg-white text-black flex justify-center items-center px-6 py-20">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <Services />
                   </div>
                 </div>
 
                 <div className="flex justify-center items-center px-6 py-28">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <Portfolio />
                   </div>
                 </div>
 
                 <div className="bg-neutral-700 flex justify-center items-center px-6 py-20">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <Comunity />
                   </div>
                 </div>
 
                 <div className="bg-white text-black flex justify-center items-center px-6 py-20">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <Contact />
                   </div>
                 </div>
@@ -72,12 +72,12 @@ function App() {
             element={
               <>
                 <div className="flex justify-center items-center px-6 pt-28">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <ContactPage />
                   </div>
                 </div>
                 <div className="bg-white text-black flex justify-center items-center px-6 py-20">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <ContactForm />
                   </div>
                 </div>
@@ -89,7 +89,7 @@ function App() {
             element={
               <>
                 <div className="bg-neutral-700 flex justify-center items-center px-6 pt-44">
-                  <div className="xl:max-w-[1600px] w-full">
+                  <div className="xl:max-w-[1500px] w-full">
                     <PortfolioPage />
                   </div>
                 </div>
@@ -99,7 +99,7 @@ function App() {
         </Routes>
 
         <div className="flex justify-center items-center px-6 pt-20">
-          <div className="xl:max-w-[1600px] w-full">
+          <div className="xl:max-w-[1500px] w-full">
             <Futher />
             <div className="flex justify-center items-center py-10">
               <h1 className="text-neutral-400">
