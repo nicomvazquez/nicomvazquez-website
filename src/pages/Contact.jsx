@@ -7,13 +7,13 @@ function Contact() {
       <div>
         <h1 className="text-3xl md:text-5xl font-bold">
           Ponte en contacto y trabajemos
-          <br /> juntos en tus proyectos.
+          <br /> juntos en tus proyectos<span className="text-yellow-500">.</span>
         </h1>
       </div>
       <div className="flex">
         <Link
           to={"/contacto"}
-          className="bg-cyan-400 text-xl text-black font-semibold py-2 px-4 rounded-lg hover:scale-110 hover:bg-cyan-500 transition-all"
+          className="text-xl bg-yellow-500 py-2 px-4 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
         >
           Contactar ahora
         </Link>

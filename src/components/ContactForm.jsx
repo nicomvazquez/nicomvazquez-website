@@ -7,7 +7,9 @@ function ContactForm() {
         <img src="./banner.png" className="rounded-2xl" alt="" />
       </div>
       <div className="flex flex-col w-full gap-14">
-        <h1 className="text-5xl md:text-6xl font-semibold">Ponte en contacto.</h1>
+        <h1 className="text-5xl md:text-6xl font-semibold">
+          Ponte en contacto<span className="text-yellow-500">.</span>
+        </h1>
         <form action="" className="flex flex-col gap-5 text-xl">
           <div className="flex w-full gap-10">
             <input
@@ -28,7 +30,7 @@ function ContactForm() {
           />
           <textarea placeholder="Mensaje" className="border p-2 rounded-md" />
           <div>
-            <button className="bg-cyan-400 text-xl text-black font-semibold py-2 px-4 rounded-lg hover:scale-110 hover:bg-cyan-500 transition-all">
+            <button className="text-xl bg-yellow-500 py-2 px-4 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all">
               Enviar
             </button>
           </div>

@@ -7,7 +7,9 @@ import { ProyectTag } from "../components";
 function PortfolioPage() {
   return (
     <section>
-      <h1 className="text-6xl md:text-7xl font-semibold">Nuestro portfolio.</h1>
+      <h1 className="text-6xl md:text-7xl font-semibold">
+        Nuestro portfolio<span className="text-yellow-500">.</span>
+      </h1>
       <p className="text-xl text-neutral-400 my-5">
         Aquí podrás encontrar algunos de nuestros proyectos
       </p>

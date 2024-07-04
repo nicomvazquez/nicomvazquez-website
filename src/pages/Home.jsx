@@ -7,11 +7,11 @@ import { FaArrowDownLong } from "react-icons/fa6";
 
 function Home() {
   const texts = [
-    "Apps mobiles.",
-    "Ecommerce.",
-    "Diseño web.",
-    "Implementacion IA.",
-    "Apps de gestion.",
+    "Apps mobiles",
+    "Ecommerce",
+    "Diseño web",
+    "Inteligencia artificial",
+    "Apps de gestion",
   ];
   const [index, setIndex] = useState(0);
 
@@ -26,7 +26,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="text-center h-screen flex justify-center items-center flex-col "
+      className="text-center py-48 flex justify-center items-center  md:items-start flex-col "
     >
       <h1 className="text-2xl md:text-3xl font-semibold">
         Diceñando tu software.
@@ -39,8 +39,8 @@ function Home() {
         exit={{ opacity: 0 }}
         transition={{ duration: 2 }}
       >
-        <h1 className="font-semibold text-6xl md:text-8xl my-3">
-          {texts[index]}
+        <h1 className="font-semibold text-6xl md:text-8xl my-3 text-wrap">
+          {texts[index]}<span className="text-yellow-500">.</span>
         </h1>
       </motion.div>
 
@@ -48,10 +48,10 @@ function Home() {
         Dedicación y pasión en el desarrollo de software.
       </p>
 
-      <div className="flex gap-5 justify-center">
+      <div className="flex gap-5 justify-center items-center">
         <Link
           to={"/contacto"}
-          className="bg-cyan-400 text-xl text-black font-semibold py-2 px-4 rounded-lg hover:scale-110 transition-all hover:bg-cyan-500"
+          className="text-xl bg-yellow-500 py-2 px-4 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
         >
           Contactar ahora
         </Link>
@@ -64,7 +64,7 @@ function Home() {
       </div>
 
       <Scroll
-        className="animate-bounce text-6xl mt-20 cursor-pointer"
+        className="animate-bounce text-6xl mt-20 cursor-pointer md:hidden"
         to={"about"}
         smooth={true}
         offset={-150}

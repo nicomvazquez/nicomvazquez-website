@@ -8,8 +8,8 @@ function Futher() {
   return (
     <section className="flex justify-between border-y border-y-neutral-400 py-10 flex-col md:flex-row gap-10">
       <div className="flex flex-col gap-2">
-        <Link to={"/"} className="text-4xl font-extrabold">
-          NICO.
+        <Link to={"/"} className="text-4xl py-3 font-bold">
+          NICO<span className="text-yellow-500">.</span>DEV
         </Link>
         <p className="text-lg text-neutral-400">
           Dedicación y pasión en el desarrollo de software.
@@ -17,7 +17,7 @@ function Futher() {
         <div className="flex mt-5">
           <Link
             to={"/contacto"}
-            className="bg-cyan-400 text-xl text-black font-semibold py-2 px-4 rounded-lg hover:scale-110 hover:bg-cyan-500 transition-all"
+            className="text-xl bg-yellow-500 py-2 px-4 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
           >
             Contactar ahora
           </Link>
@@ -26,7 +26,9 @@ function Futher() {
 
       <div className="flex gap-16">
         <div className="flex flex-col gap-3">
-          <h1 className="text-2xl font-semibold">Site map</h1>
+          <h1 className="text-2xl font-semibold">
+            Site map<span className="text-yellow-500">.</span>
+          </h1>
           {navlinks.map((i) => (
             <Scroll
               to={i.path}
@@ -42,7 +44,9 @@ function Futher() {
         </div>
 
         <div className="flex flex-col gap-3">
-          <h1 className="text-2xl font-semibold">Comunidad</h1>
+          <h1 className="text-2xl font-semibold">
+            Comunidad<span className="text-yellow-500">.</span>
+          </h1>
           <a
             href="https://www.instagram.com/nicomvazquez.dev/"
             className="text-base text-neutral-400 hover:text-white transition-all"

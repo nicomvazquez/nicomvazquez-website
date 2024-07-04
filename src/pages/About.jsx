@@ -9,7 +9,7 @@ function About() {
   return (
     <section id="about" className="">
       <h1 className="text-5xl md:text-6xl text-left font-semibold mb-10">
-        Trabajemos juntos.
+        Trabajemos juntos<span className="text-yellow-500">.</span>
       </h1>
 
       <div className="flex gap-16 md:gap-32 justify-between flex-col md:flex-row">
@@ -32,7 +32,7 @@ function About() {
           <div className="flex">
             <Link
               to={"/contacto"}
-              className="bg-cyan-400 text-xl text-black font-semibold py-2 px-4 rounded-lg hover:scale-110 hover:bg-cyan-500 transition-all"
+             className="text-xl bg-yellow-500 py-2 px-4 rounded-lg hover:scale-110 hover:bg-yellow-600 transition-all"
             >
               Contactar ahora
             </Link>

@@ -7,7 +7,7 @@ import { ServiceTag } from "../components";
 function Services() {
   return (
     <section id="services" className="text-left md:text-center">
-      <h2 className="text-5xl md:text-6xl font-bold">Servicios.</h2>
+      <h2 className="text-5xl md:text-6xl font-bold">Servicios<span className="text-yellow-500">.</span></h2>
       <p className="my-10 text-xl">
         Creamos soluciones de software para todo tipo de clientes,
         proporcionando todo lo que su negocio necesita: 

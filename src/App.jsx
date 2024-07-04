@@ -11,14 +11,14 @@ import {
   Comunity,
   Contact,
   ContactPage,
-  PortfolioPage
+  PortfolioPage,
 } from "./pages";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-black text-white w-full overflow-hidden">
-        <div className="flex justify-center items-center px-6 py-4 border-b fixed w-full bg-black bg-opacity-80 backdrop-blur-md z-10">
+      <div className="bg-neutral-800 text-white w-full overflow-hidden">
+        <div className="flex justify-center items-center px-6 py-2 fixed w-full bg-neutral-800 z-10 shadow-lg ">
           <div className="xl:max-w-[1600px] w-full">
             <Navbar />
           </div>
@@ -29,13 +29,13 @@ function App() {
             path="/"
             element={
               <>
-                <div className="flex justify-center items-center px-6">
+                <div className="bg-neutral-700 flex justify-center items-center px-6">
                   <div className="xl:max-w-[1600px] w-full">
                     <Home />
                   </div>
                 </div>
 
-                <div className="flex justify-center items-center px-6 pb-28">
+                <div className="flex justify-center items-center px-6 py-20">
                   <div className="xl:max-w-[1600px] w-full">
                     <About />
                   </div>
@@ -53,7 +53,7 @@ function App() {
                   </div>
                 </div>
 
-                <div className="flex justify-center items-center px-6 py-20">
+                <div className="bg-neutral-700 flex justify-center items-center px-6 py-20">
                   <div className="xl:max-w-[1600px] w-full">
                     <Comunity />
                   </div>
@@ -84,15 +84,18 @@ function App() {
               </>
             }
           />
-          <Route path="/portfolio" element={
-            <>
-              <div className="flex justify-center items-center px-6 pt-44">
-                <div className="xl:max-w-[1600px] w-full">
-                  <PortfolioPage />
+          <Route
+            path="/portfolio"
+            element={
+              <>
+                <div className="bg-neutral-700 flex justify-center items-center px-6 pt-44">
+                  <div className="xl:max-w-[1600px] w-full">
+                    <PortfolioPage />
+                  </div>
                 </div>
-              </div>
-            </>
-          } />
+              </>
+            }
+          />
         </Routes>
 
         <div className="flex justify-center items-center px-6 pt-20">

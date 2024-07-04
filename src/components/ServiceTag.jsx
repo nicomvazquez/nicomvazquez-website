@@ -15,7 +15,7 @@ function ServiceTag(props) {
           {props.icon === "ecommerce" && <IoCartOutline />}
           {props.icon === "design" && <FaRegLightbulb />}
         </div>
-        <h2 className="text-xl font-semibold border-l-4 border-l-cyan-400 pl-3">
+        <h2 className="text-xl font-semibold border-l-4 border-l-yellow-500 pl-3">
           {props.title}
         </h2>
       </div>

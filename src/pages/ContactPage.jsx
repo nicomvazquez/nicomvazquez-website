@@ -7,7 +7,7 @@ import { ContactTags } from "../components";
 function ContactPage() {
   return (
     <section className="text-white py-24 md:py-32">
-      <h1 className="text-5xl md:text-7xl font-semibold">Trabajemos juntos.</h1>
+      <h1 className="text-5xl md:text-7xl font-semibold">Trabajemos juntos<span className="text-yellow-500">.</span></h1>
       <div className="grid md:grid-cols-3 gap-28 my-16">
         {contactTags.map((i) => (
           <ContactTags
